@@ -10,7 +10,7 @@ Test case steps;
 
 
 //In this part I had to go to the second page(According to written in the case study)
-//                                  but there is no second page on Trendyol search page
+                                  but there is no second page on Trendyol search page
 
 
 *User add to favorite to third product and go to 'My Favorites'
