@@ -26,7 +26,6 @@ Created by Kutluhan on 6.10.2021
 *Wait for "3" seconds to taking infos
 *Check are products same
 # User clicks 'remove' button
-*Wait for "3" seconds to managing log in
 *Click element with this css "div[class='ufvrt-btn-wrppr']" to remove button
 # User checks if 'My Favorites' page is empty
 *Check the text "Favoriler Listeniz Henüz Boş" in the element with the css "p[class='empty-favorites-header']" to favorites operations
