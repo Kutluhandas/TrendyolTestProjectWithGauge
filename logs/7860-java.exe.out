@@ -1,0 +1,38 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2694milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2694"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54791"}
+{"logLevel":"info","message":"Listening on port:54791"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'HomePageStepImpl.assertTrue' and 'HomePageStepImpl.assertTrue'"}
+{"logLevel":"debug","message":"Found {} li ve {} isimli sayfa açık mı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'HomePageStepImpl.click' and 'HomePageStepImpl.click'"}
+{"logLevel":"debug","message":"Found {} li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LogInStepImpl.sendKeys' and 'LogInStepImpl.sendKeys'"}
+{"logLevel":"debug","message":"Found {} id'li yere {} yazısını yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li elemente tıkla : public void click(String css)"}
+{"logLevel":"debug","message":"\t{} li ve {} isimli sayfa açık mı : public void assertTrue(String url, String name)"}
+{"logLevel":"debug","message":"\t{} id'li yere {} yazısını yaz : public void sendKeys(String id, String text)"}
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 33301
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Eki 06, 2021 1:06:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} li ve {} isimli sayfa açık mı' using 'class HomePageStepImpl.assertTrue"}
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class HomePageStepImpl.click"}
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class HomePageStepImpl.click"}
+{"logLevel":"debug","message":"Executing '{} id'li yere {} yazısını yaz' using 'class LogInStepImpl.sendKeys"}
+{"logLevel":"debug","message":"Executing '{} id'li yere {} yazısını yaz' using 'class LogInStepImpl.sendKeys"}
+{"logLevel":"debug","message":"Executing '{} li elemente tıkla' using 'class HomePageStepImpl.click"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

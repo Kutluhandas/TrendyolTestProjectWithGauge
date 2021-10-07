@@ -1,0 +1,75 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2832milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2832"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62430"}
+{"logLevel":"info","message":"Listening on port:62430"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'SearchPageStepImpl.sendKeysWithCss' and 'SearchPageStepImpl.sendKeysWithCss'"}
+{"logLevel":"debug","message":"Found {} css'li yere {} yazısını yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'HomePageStepImpl.clickCloseButton' and 'HomePageStepImpl.clickCloseButton'"}
+{"logLevel":"debug","message":"Found Click close button to close ads with this css {} at home page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'MyFavoritesPageStepImpl.click' and 'MyFavoritesPageStepImpl.click'"}
+{"logLevel":"debug","message":"Found {} li elemente tıklaaaa in current project scope."}
+{"logLevel":"debug","message":"Comparing 'HomePageStepImpl.assertTrueToHomePage' and 'HomePageStepImpl.assertTrueToHomePage'"}
+{"logLevel":"debug","message":"Found Is open Trenyol with this url {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'MyFavoritesPageStepImpl.checkEmptyMyFavorites' and 'MyFavoritesPageStepImpl.checkEmptyMyFavorites'"}
+{"logLevel":"debug","message":"Found {} cssli elemenette {} yazıyor mu kontrolü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'SearchPageStepImpl.click' and 'SearchPageStepImpl.click'"}
+{"logLevel":"debug","message":"Found {} css'li elemente tıklaa in current project scope."}
+{"logLevel":"debug","message":"Comparing 'MyFavoritesPageStepImpl.checkSameProduct' and 'MyFavoritesPageStepImpl.checkSameProduct'"}
+{"logLevel":"debug","message":"Found ürünler aynı mı karşılaştırması in current project scope."}
+{"logLevel":"debug","message":"Comparing 'MyFavoritesPageStepImpl.saveForRequestOne' and 'MyFavoritesPageStepImpl.saveForRequestOne'"}
+{"logLevel":"debug","message":"Found favorilerim sayfasındaki ürünün bilgilerini al in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LogInStepImpl.sendKeysToLogIn' and 'LogInStepImpl.sendKeysToLogIn'"}
+{"logLevel":"debug","message":"Found Write the text {} in the place with the id {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'HomePageStepImpl.clickLogInButton' and 'HomePageStepImpl.clickLogInButton'"}
+{"logLevel":"debug","message":"Found Click log in button to open log ın page with this css {} at home page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'SearchPageStepImpl.getText' and 'SearchPageStepImpl.getText'"}
+{"logLevel":"debug","message":"Found {} xpath'li elementin içinde {} texti yazıyor mu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ProductListPageStepImpl.clickInListForRequestOne' and 'ProductListPageStepImpl.clickInListForRequestOne'"}
+{"logLevel":"debug","message":"Found {} css'li elementler arasından {} ninci butona tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'MyFavoritesPageStepImpl.saveInListForRequestOne' and 'MyFavoritesPageStepImpl.saveInListForRequestOne'"}
+{"logLevel":"debug","message":"Found Arama sayfasındaki 3. ürünün bilgilerini al in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LogInStepImpl.click' and 'LogInStepImpl.click'"}
+{"logLevel":"debug","message":"Found {} css'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ProductListPageStepImpl.click' and 'ProductListPageStepImpl.click'"}
+{"logLevel":"debug","message":"Found {} li elemente tıklaaa in current project scope."}
+{"logLevel":"debug","message":"Comparing 'LogInStepImpl.waitImplementation' and 'LogInStepImpl.waitImplementation'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle! in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tArama sayfasındaki 3. ürünün bilgilerini al : public String saveInListForRequestOne()"}
+{"logLevel":"debug","message":"\tClick log in button to open log ın page with this css {} at home page : public void clickLogInButton(String css)"}
+{"logLevel":"debug","message":"\tfavorilerim sayfasındaki ürünün bilgilerini al : public String saveForRequestOne()"}
+{"logLevel":"debug","message":"\türünler aynı mı karşılaştırması : public void checkSameProduct()"}
+{"logLevel":"debug","message":"\t{} css'li yere {} yazısını yaz : public void sendKeysWithCss(String css, String text)"}
+{"logLevel":"debug","message":"\t{} xpath'li elementin içinde {} texti yazıyor mu : public void getText(String xpath, String text)"}
+{"logLevel":"debug","message":"\tWrite the text {} in the place with the id {} : public void sendKeysToLogIn(String id, String text)"}
+{"logLevel":"debug","message":"\t{} cssli elemenette {} yazıyor mu kontrolü : public void checkEmptyMyFavorites(String css, String text)"}
+{"logLevel":"debug","message":"\t{} css'li elementler arasından {} ninci butona tıkla : public void clickInListForRequestOne(String css, ınt i)"}
+{"logLevel":"debug","message":"\t{} css'li elemente tıkla : public void click(String css)"}
+{"logLevel":"debug","message":"\t{} css'li elemente tıklaa : public void click(String css)"}
+{"logLevel":"debug","message":"\tIs open Trenyol with this url {} : public void assertTrueToHomePage(String url)"}
+{"logLevel":"debug","message":"\tClick close button to close ads with this css {} at home page : public void clickCloseButton(String css)"}
+{"logLevel":"debug","message":"\t{} li elemente tıklaaaa : public void click(String css)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle! : public void waitImplementation(ınt second) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li elemente tıklaaa : public void click(String css)"}
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 41984
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Eki 07, 2021 4:26:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Is open Trenyol with this url {}' using 'class HomePageStepImpl.assertTrueToHomePage"}
+{"logLevel":"debug","message":"Executing 'Click close button to close ads with this css {} at home page' using 'class HomePageStepImpl.clickCloseButton"}
+{"logLevel":"debug","message":"Executing 'Click log in button to open log ın page with this css {} at home page' using 'class HomePageStepImpl.clickLogInButton"}
+{"logLevel":"debug","message":"Executing 'Write the text {} in the place with the id {}' using 'class LogInStepImpl.sendKeysToLogIn"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

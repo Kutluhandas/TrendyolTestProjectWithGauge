@@ -1,0 +1,32 @@
+Created by Kutluhan on 6.10.2021
+
+# User open trendyol.com and confirm that on home page
+*Check is open Trenyol with this url "https://www.trendyol.com/"
+*Click close button to close ads element with this css "svg[width='13px']" at home page
+*Accept cookies
+*Click log in button to open log in page element with this css "div[class='link account-user']" at home page
+# User open 'log in' page and and enter log in infos
+*Write the text "kutluhan.das@hotmail.com" in the element with the id "login-email" to log in operations
+*Write the text "123456Kk" in the element with the id "login-password-input" to log in operations
+*Wait for "3" seconds to managing log in
+*Click submit button element with this css "button[class='q-primary q-fluid q-button-medium q-button submit']"
+*Wait for "3" seconds to managing log in
+# User search 'samsung' in search field and confirm on 'samsung search page'
+*Write the text "Samsung" in the element with the css "input[class='search-box']" to search
+*Wait for "3" seconds to search
+*Click search button element with this css "i[class='search-icon']"
+*Check the text "Samsung" in the element with this xpath "//*[@class='dscrptn']/h1" to search page
+# User add to favorite to third product and go to 'My Favorites'
+*Take infos the third product in search page
+*Wait for "3" seconds to taking infos
+*Click the i "2" button among the elements with css "div[class='fvrt-btn-wrppr']"
+*Click element with this css "a[class='account-nav-item account-favorites']" to go to 'My Favorites' pages
+# User checks if it's same product
+*Take infos the product that in 'My Favorites' page
+*Wait for "3" seconds to taking infos
+*Check are products same
+# User clicks 'remove' button
+*Wait for "3" seconds to managing log in
+*Click element with this css "div[class='ufvrt-btn-wrppr']" to remove button
+# User checks if 'My Favorites' page is empty
+*Check the text "Favoriler Listeniz Henüz Boş" in the element with the css "p[class='empty-favorites-header']" to favorites operations
