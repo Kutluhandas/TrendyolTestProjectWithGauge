@@ -1,33 +1,25 @@
-## About this template
+Test case steps;
 
-This is a template to get started with a Gauge project that uses Selenium as the driver to interact with a web browser.
+*User open trendyol.com and confirm that on home page
 
-## Installing this template
 
-    gauge --install java_maven_selenium
+*User open 'log in' page and and enter log in infos
 
-## Building on top of this template
 
-### Defining Specifications
+*User search 'samsung' in search field and confirm on 'samsung search page'
 
-* This template includes a sample specification which opens up a browser and navigates to `Get Started` page of Gauge.
-* Add more specifications on top of sample specification.
 
-Read more about [Specifications](http://getgauge.io/documentation/user/current/specifications/README.html)
+//In this part I had to go to the second page(According to written in the case study)
+                                  but there is no second page on Trendyol search page
 
-### Writing the implementations
 
-This is where the java implementation of the steps would be implemented. Since this is a Selenium based project, the java implementation would invoke Selenium APIs as required.
+*User add to favorite to third product and go to 'My Favorites'
 
-_We recommend considering modelling your tests using the [Page Object](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) pattern, and the [Webdriver support](https://github.com/SeleniumHQ/selenium/wiki/PageFactory) for creating them._
 
-- Note that every Gauge step implementation is annotated with a `Step` attribute that takes the Step text pattern as a parameter.
-Read more about [Step implementations in Java](http://getgauge.io/documentation/user/current/test_code/java/java.html)
+*User checks if it's same product
 
-### Execution
 
-* You can execute the specification as:
+*User clicks 'remove' button
 
-```
-mvn test
-```
+
+*User checks if 'My Favorites' page is empty
